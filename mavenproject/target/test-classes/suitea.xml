@@ -1,0 +1,11 @@
+
+
+<suite name="Suite A">
+	<test name="LoginTest">
+		<classes>
+			<class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.CreateDeleteTest"></class>
+		</classes>		
+	</test>
+	
+	
+</suite>

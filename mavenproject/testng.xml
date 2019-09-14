@@ -1,0 +1,10 @@
+
+<suite name="MySuite">
+	<suite-files>
+		<suite-file path="./src/test/resources/suitea.xml"/>
+		
+		<suite-file path="./src/test/resources/suiteb.xml"/>
+	
+	</suite-files>
+</suite>
+

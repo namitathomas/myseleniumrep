@@ -1,0 +1,8 @@
+
+<suite name="MySuite">
+	<suite-files>
+		<suite-file path="./src/test/resources/suitea.xml"/>
+	
+	</suite-files>
+</suite>
+

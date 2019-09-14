@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStock">
+        <methods>
+          <include name="inittest"/>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="addstocktest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStock -->
+      <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.LoginTestClass">
+        <methods>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.LoginTestClass -->
+      <class name="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.CreateDeleteTest">
+        <methods>
+          <include name="submitleave"/>
+          <include name="deletetest"/>
+          <include name="createtest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.CreateDeleteTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
