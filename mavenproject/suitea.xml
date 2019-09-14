@@ -2,6 +2,8 @@
 
 <suite name="Suite A">
 	<test name="AddDeleteStock">
+		
+
 		<classes>
 			<class name="com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStock"></class>
 		</classes>		
